@@ -1,0 +1,54 @@
+.hero {
+    background-color: #ffffff;
+}
+
+.header {
+    padding: 15px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-bottom: 56px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 65px;
+}
+
+.nav-list .nav-item {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.1;
+}
+
+.nav-list .nav-item :hover{
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-register{
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 7px;
+    padding: 10px 25px;
+    transition: all .3s;
+    letter-spacing: -0.3;
+}
+
+.btn-register :hover{
+    background: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+

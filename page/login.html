@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="../assets/Css/style.css">
+</head>
+<body>
+  <div class="auth-container">
+    <div class="auth-card">
+      <h2>Welcome Back</h2>
+
+      <form action="main.html">
+        <input type="email" id="email" placeholder="Email" required>
+        <div class="password-field">
+          <input type="password" id="signin-password" placeholder="Password" required>
+          <span class="toggle-password" onclick="togglePassword('signin-password')">👁</span>
+        </div>
+
+        <button type="submit">Sign In</button>
+      </form>
+
+      <p class="toggle-text">
+        Don’t have an account?
+        <a href="register.html">Register</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="../assets/javascripts/script.js"></script>
+</body>
+</html>

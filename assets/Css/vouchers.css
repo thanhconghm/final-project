@@ -1,0 +1,39 @@
+.vouchers{
+    width: 100%;
+    padding-top: 220px;
+    padding-bottom: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vouchers-download{
+    width: 507px;
+    height: 382px;
+}
+
+.vouchers-title{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 0.6;
+    padding-bottom: 41px;
+}
+
+.vouchers-subtitle{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.4;
+    padding-bottom: 65px;
+}
+
+.vouchers-app{
+    justify-content: space-between;
+    gap: 19px;
+}
+
+.vouchers-img{
+    border-radius: 23px;
+
+}
