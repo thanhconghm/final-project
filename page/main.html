@@ -2,28 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Main Page</title>
-  <link rel="stylesheet" href="../assets/Css/main.css">
+  <title>CodeDojo</title>
+  <script type="module" src="../assets/javascripts/components/header.js" defer></script>
+  <script type="module" src="../assets/javascripts/components/courses.js"> </script>
+  <script type="module" src="../assets/javascripts/components/lessonViewer.js"></script>
+  <script type="module" src="../assets/javascripts/components/app.js" defer></script>
+  <script type="module" src="../assets/javascripts/components/playgrounds.js"></script>
+  <script type="module" src="../assets/javascripts/components/sidebars.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <header class="main-header">
-    <h1 class="logo">MyApp</h1>
-    <div class="profile-menu">
-      <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Profile" class="profile-icon" onclick="toggleMenu()">
-      <div class="dropdown hidden" id="profile-dropdown">
-        <a href="#">⚙ Settings</a>
-        <a href="#">🎨 Customize</a>
-        <a href="login.html">🚪 Sign Out</a>
-      </div>
+<body class="bg-slate-50">
+
+  <div id="header-container"></div>
+  
+   <main class="p-6">
+    <div id="main-content" class="grid grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <section id="course-section" class="col-span-2"></section>
+      <aside id="sidebar-section" class="col-span-1"></aside>
     </div>
-  </header>
-
-  <main class="main-content">
-    <h2>Welcome to the Main Page 🎉</h2>
-    <p>This is just a placeholder. Customize it as you like.</p>
   </main>
-
-  <script src="../assets/javascripts/script.js"></script>
+  <div id="courses-container" class="grid grid-cols-2 gap-4"></div>
+  <div id="lesson-viewer-container"></div>
 </body>
 </html>
